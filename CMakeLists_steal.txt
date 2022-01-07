@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0)
+project(rev_hw2)
+
+set(CMAKE_CXX_STANDARD 14)
+SET(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} /MDd")
+SET(CMAKE_CXX_FLAGS_RELEASE "/MD")
+add_executable(rev_hw2 Steal.cpp)
